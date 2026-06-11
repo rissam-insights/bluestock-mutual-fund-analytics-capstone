@@ -25,7 +25,6 @@
 <!-- TOP BADGES ROW 3 — ANALYTICS DOMAINS -->
 ![Domain](https://img.shields.io/badge/Domain-Mutual%20Fund%20Analytics-00D4FF?style=flat-square&logo=chartdotjs&logoColor=white)
 ![Analytics](https://img.shields.io/badge/Analytics-Risk%20%7C%20Performance%20%7C%20Portfolio-7C3AED?style=flat-square)
-![University](https://img.shields.io/badge/University-VIT%20Vellore-E31837?style=flat-square&logo=academia&logoColor=white)
 ![Degree](https://img.shields.io/badge/Degree-B.Com%20BPS-FF6B35?style=flat-square)
 
 ---
