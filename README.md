@@ -276,13 +276,29 @@ bluestock_mf_capstone/
 <details>
 <summary><b>Click to view dataset details</b></summary>
 
-| Dataset | Description | Key Fields |
-|---------|-------------|------------|
-| `fund_nav.csv` | Daily Net Asset Values per fund | `fund_id`, `date`, `nav`, `scheme_code` |
-| `investor_transactions.csv` | Buy/Sell/SIP transaction records | `investor_id`, `fund_id`, `txn_type`, `amount`, `date` |
-| `fund_master.csv` | Fund metadata and category | `fund_id`, `fund_name`, `category`, `amc`, `risk_level` |
-| `benchmark_index.csv` | Market benchmark returns (Nifty 50) | `date`, `index_value`, `daily_return` |
-| `investor_profile.csv` | Investor demographics & risk profile | `investor_id`, `age`, `risk_appetite`, `tenure` |
+| Dataset                        | Description                                      | Key Fields                                                                         |
+
+| ------------------------------ | ------------------------------------------------ | ---------------------------------------------------------------------------------- |
+
+| `01_fund_master.csv`           | Master information about mutual fund schemes     | `amfi_code`, `scheme_name`, `category`, `fund_house`, `expense_ratio_pct`          |
+
+| `02_nav_history.csv`           | Historical Net Asset Value (NAV) data            | `amfi_code`, `date`, `nav`                                                         |
+
+| `03_aum_by_fund_house.csv`     | Assets Under Management aggregated by fund house | `fund_house`, `aum_crore`, `aum_lakh_crore`                                        |
+
+| `04_monthly_sip_inflows.csv`   | Monthly SIP investment inflows                   | `month`, `sip_inflow_crore`                                                        |
+
+| `05_category_inflows.csv`      | Net inflows and outflows by fund category        | `category`, `month`, `net_inflow_crore`                                            |
+
+| `06_industry_folio_count.csv`  | Industry-wide folio statistics                   | `month`, `equity_folio_crore`, `debt_folio_crore`, `hybrid_folio_crore`            |
+
+| `07_scheme_performance.csv`    | Fund performance and risk metrics                | `return_1yr_pct`, `return_3yr_pct`, `return_5yr_pct`, `sharpe_ratio`, `risk_grade` |
+
+| `08_investor_transactions.csv` | Investor transaction and SIP records             | `investor_id`, `amfi_code`, `amount_inr`, `transaction_date`                       |
+
+| `09_portfolio_holdings.csv`    | Portfolio allocation and holdings information    | `amfi_code`, `sector`, `holding_weight_pct`                                        |
+
+| `10_benchmark_indices.csv`     | Benchmark index performance data                 | `date`, `benchmark_return_pct`, `index_name`                                       |
 
 **Data Volume:** ~50,000+ transaction records across 3+ years of fund data.
 
