@@ -235,41 +235,43 @@ Phase 7: Recommendation Engine   Phase 8: Final Reporting
 
 ## 📂 Repository Structure
 
-```
+```text
 bluestock_mf_capstone/
 │
 ├── 📁 data/
-│   ├── 📁 raw/                    # Original unprocessed datasets
-│   ├── 📁 processed/              # Cleaned & transformed data
-│   └── 📁 db/                     # SQLite database files
+│   ├── 📁 raw/                           # Original downloaded datasets
+│   ├── 📁 processed/                     # Cleaned and transformed datasets
+│   └── 📁 db/
+│       └── 🗄️ bluestock_mf.db           # SQLite database
 │
 ├── 📁 notebooks/
-│   ├── 📓 EDA_Analysis.ipynb              # Exploratory Data Analysis
-│   ├── 📓 Performance_Analytics.ipynb     # CAGR, Sharpe, Alpha, Beta
-│   └── 📓 Advanced_Analytics.ipynb        # VaR, CVaR, HHI, Cohorts
+│   ├── 📓 01_data_ingestion.ipynb        # Data ingestion workflow
+│   ├── 📓 02_data_cleaning.ipynb         # Data cleaning & validation
+│   ├── 📓 03_eda_analysis.ipynb          # Exploratory Data Analysis
+│   ├── 📓 04_performance_analytics.ipynb # CAGR, Sharpe, Sortino, Alpha, Beta
+│   └── 📓 05_advanced_analytics.ipynb    # VaR, CVaR, HHI, Cohorts, SIP Analysis
 │
 ├── 📁 scripts/
-│   └── 🐍 recommender.py                  # Fund Recommendation Engine
+│   ├── 🐍 etl_pipeline.py               # End-to-end ETL pipeline
+│   ├── 🐍 live_nav_fetch.py             # NAV data fetching utility
+│   ├── 🐍 compute_metrics.py            # Performance metrics calculations
+│   └── 🐍 recommender.py                # Mutual Fund Recommendation Engine
 │
 ├── 📁 sql/
-│   └── 🗄️ queries.sql                     # ETL & analytical SQL queries
+│   ├── 🗄️ schema.sql                    # Database schema definitions
+│   └── 🗄️ queries.sql                   # Analytical SQL queries
 │
 ├── 📁 dashboard/
-│   ├── 📊 bluestock_mf_dashboard.pbix     # Power BI source file
-│   └── 📄 Dashboard.pdf                   # Exported dashboard PDF
+│   └── 📊 bluestock_mf.pbix             # Power BI dashboard source file
 │
 ├── 📁 reports/
-│   ├── 📄 Final_Report.pdf                # Comprehensive final report
-│   ├── 📊 Bluestock_MF_Presentation.pptx # Executive presentation
-│   ├── 📈 rolling_sharpe_chart.png        # Risk analytics visual
-│   └── 📋 var_cvar_report.csv             # VaR/CVaR output table
+│   ├── 📄 Final_Report.pdf              # Comprehensive project report
+│   └── 📊 Presentation.pptx             # Executive presentation deck
 │
-├── 📄 README.md                           # This file
-├── 📋 requirements.txt                    # Python dependencies
-└── 🚫 .gitignore                          # Git exclusions
+├── 📄 README.md                         # Project documentation
+└── 📋 requirements.txt                  # Python dependencies
 ```
 
----
 
 ## 📊 Dataset Description
 
