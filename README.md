@@ -12,7 +12,6 @@
 ![Version](https://img.shields.io/badge/Version-v1.0-00D4FF?style=for-the-badge&logo=git&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-Capstone%20Project-7C3AED?style=for-the-badge&logo=databricks&logoColor=white)
-![License](https://img.shields.io/badge/License-Academic-FF6B35?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 <!-- TOP BADGES ROW 2 — TECH STACK -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -33,10 +32,10 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║          📊  B L U E S T O C K   M U T U A L   F U N D                  ║
-║               A N A L Y T I C S   C A P S T O N E   v1.0                ║
+║          📊  B L U E S T O C K   M U T U A L   F U N D                   ║
+║               A N A L Y T I C S   C A P S T O N E   v1.0                 ║
 ║                                                                          ║
-║   CAGR  │  Sharpe Ratio  │  VaR/CVaR  │  HHI  │  Alpha  │  Beta        ║
+║   CAGR  │  Sharpe Ratio  │  VaR/CVaR  │  HHI  │  Alpha  │  Beta          ║
 ║   ──────────────────────────────────────────────────────────────         ║
 ║   End-to-End Financial Analytics · Python · SQL · Power BI               ║
 ╚══════════════════════════════════════════════════════════════════════════╝
@@ -85,11 +84,10 @@
 |-------|--------|
 | 📦 **Release** | `v1.0` — Initial Stable Release |
 | ✅ **Status** | `Completed` |
-| 🗓️ **Released** | June 2025 |
+| 🗓️ **Released** | 12 June 2026 |
 | 🎓 **Project Type** | End-to-End Data Analytics Capstone |
 | 🔬 **Scope** | Financial Analytics · Risk Analytics · BI Dashboard · Recommendation Engine |
 | 👤 **Author** | Rissam SK |
-| 🏫 **Institution** | VIT Vellore — B.Com Business Process Services |
 
 </div>
 
@@ -625,30 +623,12 @@ dashboard/bluestock_mf_dashboard.pbix
 
 ---
 
-## 🔮 Future Enhancements
-
-<details>
-<summary><b>Planned v2.0 Improvements</b></summary>
-
-| Enhancement | Priority | Tech |
-|-------------|----------|------|
-| 🔴 Live NAV API integration (AMFI / NSE) | High | `requests`, REST API |
-| 🔴 ML-based fund recommendation (collaborative filtering) | High | `scikit-learn` |
-| 🟡 Monte Carlo simulation for portfolio returns | Medium | `numpy` |
-| 🟡 Streamlit web app for interactive recommender | Medium | `streamlit` |
-| 🟡 BigQuery migration for scalable analytics | Medium | Google BigQuery |
-| 🟢 Automated weekly report generation | Low | `reportlab`, cron |
-| 🟢 Sentiment analysis on fund manager commentary | Low | `transformers` |
-
-</details>
-
----
 
 ## 📜 Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
-| `v1.0` | June 2025 | Initial release — full capstone delivered |
+| `v1.0` | 12 June 2026 | Initial release — full capstone delivered |
 
 ---
 
@@ -660,7 +640,7 @@ dashboard/bluestock_mf_dashboard.pbix
 ╔══════════════════════════════════════════╗
 ║            RISSAM SK                     ║
 ║  B.Com Business Process Services         ║
-║  VIT Vellore  |  CGPA: 8.57             ║
+║  VIT Vellore  |  CGPA: 8.64              ║
 ║  Expected Graduation: May 2027           ║
 ║                                          ║
 ║  Aspiring Data Analyst                   ║
@@ -684,19 +664,11 @@ dashboard/bluestock_mf_dashboard.pbix
 
 ---
 
-<!-- GitHub Stats Cards -->
-![Rissam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rissam-insights&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rissam-insights&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF)
-
----
-
 *⭐ If this project was useful or insightful, consider giving it a star — it helps others discover it.*
 
-![Visitor Count](https://komarev.com/ghpvc/?username=rissam-insights&label=Profile+Views&color=00D4FF&style=flat-square)
 
 ---
 
-<sub>Built with ❤️ by Rissam SK | VIT Vellore | B.Com Business Process Services | 2025</sub>
+<sub>Built with ❤️ by Rissam SK | VIT Vellore | B.Com Business Process Services | 2026</sub>
 
 </div>
